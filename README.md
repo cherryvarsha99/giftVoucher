@@ -48,6 +48,6 @@ Gift Voucher
 
 ## Contributors :
 
- <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />  
+  <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />                  <img src="SM.png" alt="drawing" width="150" style="border-radius:50%" /> 
  
-   [Sai Varsha Vellanki](https://github.com/cherryvarsha99) 
+   [Sai Varsha Vellanki](https://github.com/cherryvarsha99)    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       [Sreenidhi Madala](https://github.com/Sreenidhi17) 
