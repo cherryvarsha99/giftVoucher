@@ -1,10 +1,12 @@
 package com.example.project;
 
 import android.os.Bundle;
-import android.support.wearable.activity.WearableActivity;
+
 import android.widget.TextView;
 
-public class GiftCardFragment extends WearableActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class GiftCardFragment extends AppCompatActivity {
 
     private TextView mTextView;
 
@@ -16,6 +18,6 @@ public class GiftCardFragment extends WearableActivity {
         mTextView = (TextView) findViewById(R.id.text);
 
         // Enables Always-on
-        setAmbientEnabled();
+
     }
 }
