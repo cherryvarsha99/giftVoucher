@@ -48,8 +48,13 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".GiftCardFragment"
           android:label="@string/title_activity_gift_card_fragment">
+=======
+            android:name=".GiftCardFragment">
+
+>>>>>>> 993dc01cfc32612a5de646b79548f7db2d8ac6d3
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
