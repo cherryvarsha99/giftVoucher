@@ -26,8 +26,8 @@
             android:value="true" />
 
         <activity
-            android:name=".PasswordChange"
-            android:label="@string/title_activity_password_change">
+            android:name=".PasswordChange">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,8 +39,8 @@
         <activity android:name=".GiftCard_Item" />
         <activity android:name=".Redeem_Fragment" />
         <activity
-            android:name=".Purchasecrad_Fragment"
-            android:label="@string/title_activity_purchasecrad__fragment">
+            android:name=".Purchasecrad_Fragment">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
