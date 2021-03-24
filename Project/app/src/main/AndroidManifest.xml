@@ -48,8 +48,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GiftCardFragment"
-            android:label="@string/title_activity_gift_card_fragment">
+            android:name=".GiftCardFragment">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
