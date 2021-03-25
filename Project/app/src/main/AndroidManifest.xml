@@ -19,6 +19,7 @@
         <activity android:name=".GiftCardsActivity"/>
         <activity android:name=".MainActivity" />
         <activity android:name=".MainMenuActivity" />
+
         <activity android:name=".authentication.RegisterActivity" />
         <activity android:name=".authentication.ProfileActivity" />
         <activity android:name=".authentication.EditProfileActivity" />

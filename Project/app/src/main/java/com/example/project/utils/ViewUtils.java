@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class ViewUtils {
 
-    private static final String TAG = ;
+    private static final String TAG = "ProjectUtility";
 
     //logger
         public static void logErrorMessage(String errorMessage) {
