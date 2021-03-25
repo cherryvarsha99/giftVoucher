@@ -25,15 +25,6 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
-        <activity
-            android:name=".PasswordChange">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".EditProfile" />
         <activity android:name=".List_Item" />
         <activity android:name=".GiftCard_Item" />
@@ -48,37 +39,17 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name=".GiftCardFragment"
           android:label="@string/title_activity_gift_card_fragment">
-=======
-            android:name=".GiftCardFragment">
 
->>>>>>> 993dc01cfc32612a5de646b79548f7db2d8ac6d3
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ProfileActivity"
-            android:label="@string/title_activity_profile">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".RegisterActivity"
-            android:label="@string/title_activity_register">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".MainMenuActivity"
             android:label="@string/title_activity_main_menu">
