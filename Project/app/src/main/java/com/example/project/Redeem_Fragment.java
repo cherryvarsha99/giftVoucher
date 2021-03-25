@@ -9,6 +9,6 @@ public class Redeem_Fragment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_redeemCard__fragment);
+        setContentView(R.layout.activity_redeemcard__fragment);
     }
 }
