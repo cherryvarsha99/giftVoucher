@@ -1,48 +1,39 @@
 package com.example.project.authentication;
 
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
+import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.project.MainMenuActivity;
 import com.example.project.R;
+import com.example.project.utils.SharedPrefs;
 
 
-public class LoginActivity extends AppCompatActivity {
 
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private SharedPrefs sharedPrefs;
     EditText emailEt, passwordEt;
     CheckBox checkBox;
-    private Button btnLogin;
-    TextView RegisterTV;
 
-
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activty);
-        btnLogin = (Button) findViewById(R.id.btnLogin);
-        RegisterTV = (TextView) findViewById(R.id.txtRegisterLink);
-
     }
 
-    public void login(View v) {
-        Intent myIntent = new Intent(getApplicationContext(), MainMenuActivity.class);
 
-        startActivity(myIntent);
-
-    }
-    public void Register(View view)
-    {
-        Intent myIntent = new Intent(getApplicationContext(), RegisterActivity.class);
-
-        startActivity(myIntent);
-
+    @Override
+    public void onClick(View v) {
 
     }
-
 }
