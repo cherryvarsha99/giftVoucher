@@ -68,7 +68,31 @@
                         android:id="@+id/btnManageGiftCards"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Manage Gift Cards" />
+                        android:text="Redeem/Purchase Gift Cards" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/giftListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_below="@id/giftLayout">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+                    <Button
+                        android:id="@+id/btnListGifts"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="VIEW GIFTS" />
                 </LinearLayout>
 
             </LinearLayout>
