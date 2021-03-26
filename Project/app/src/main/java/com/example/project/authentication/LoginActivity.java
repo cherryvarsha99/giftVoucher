@@ -18,19 +18,30 @@ public class LoginActivity extends AppCompatActivity {
     EditText emailEt, passwordEt;
     CheckBox checkBox;
     private Button btnLogin;
+    private Button btnRegister;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activty);
         btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnRegister = (Button) findViewById(R.id.btnRegister);
+
     }
 
-    public void login(View v)
-    {
+    public void login(View v) {
         Intent myIntent = new Intent(getApplicationContext(), MainMenuActivity.class);
 
-       startActivity(myIntent);
+        startActivity(myIntent);
+
+    }
+    public void Register(View v)
+    {
+        Intent myIntent = new Intent(getApplicationContext(), RegisterActivity.class);
+
+        startActivity(myIntent);
 
 
     }
+
 }
