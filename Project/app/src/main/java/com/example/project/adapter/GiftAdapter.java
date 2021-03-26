@@ -10,23 +10,46 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.project.R;
+import com.example.project.fragments.Gift;
 import com.makeramen.roundedimageview.RoundedImageView;
+import com.squareup.picasso.Picasso;
 
-public class GiftAdapter extends RecyclerView.Adapter<GiftAdapter.MyViewHolder>{
+import java.util.List;
 
-    @Override
-    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+public class GiftAdapter extends RecyclerView.Adapter<GiftAdapter.MyViewHolder> {
+    private final Context mContext;
+    private LayoutInflater layoutInflater;
+    private final List<Gift> giftCards;
+
+    public GiftAdapter(Context mContext, List<Gift> giftCards) {
+        this.mContext = mContext;
+        this.giftCards = giftCards;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GiftAdapter.MyViewHolder holder, int position) {
+    public MyViewHolder onCreateViewHolder(ViewGroup parent, int i) {
+        if (layoutInflater == null) {
+            layoutInflater = LayoutInflater.from(parent.getContext());
+        }
+        View view = layoutInflater.inflate(R.layout.activity_gift_card__item, parent, false);
+        return new MyViewHolder(view);
+    }
 
+    @Override
+    public void onBindViewHolder(final MyViewHolder myViewHolder, final int position) {
+        Gift giftCardDto = giftCards.get(position);
+        Picasso.get()
+                .load("https://3.imimg.com/data3/JB/BT/MY-7088265/500-500x500.jpg")
+                .placeholder(R.drawable.gift_pic)
+                .into(myViewHolder.giftImageView);
+        myViewHolder.textViewGiftCode.setText("Code: "+giftCardDto.getCode());
+        myViewHolder.textViewGiftAmount.setText("Amount: $"+ giftCardDto.getAmount());
+        myViewHolder.textViewGiftRedeemed.setText("Redeemed: "+ giftCardDto.getRedeemed());
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return giftCards.size();
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
