@@ -67,7 +67,7 @@ public class RedeemCardFragment extends Fragment implements View.OnClickListener
                              Bundle savedInstanceState) {
         sharedPrefs =SharedPrefs.getInstance(getActivity());
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_redeem_card, container, false);
+        View view = inflater.inflate(R.layout.activity_redeemcard__fragment, container, false);
         //message view
         editTextMessage = view.findViewById(R.id.messageEditText);
         editTextMessage.setFocusable(false);
