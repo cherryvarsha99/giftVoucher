@@ -20,6 +20,12 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     }
+    public void login(View v) {
+        Intent myIntent = new Intent(getApplicationContext(), LoginActivity.class);
+
+        startActivity(myIntent);
+
+    }
 
 
 
