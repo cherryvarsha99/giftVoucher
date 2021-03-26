@@ -74,5 +74,28 @@ public class SharedPrefs {
 
     }
 
+    public void setBooleanValue(String Tag, boolean token) {
+        prefsEditor.putBoolean(Tag, token);
+        prefsEditor.commit();
+    }
 
+    public void setUser(User user, String tag) {
+        Gson gson = new Gson();
+        String hashMapString = gson.toJson(user);
+        prefsEditor.putString(tag, hashMapString);
+        prefsEditor.apply();
+    }
+
+    public User getUser(String tag) {
+        String obj = sharedPreferences.getString(tag, "default");
+        if (obj.equals("default")) {
+            return user;
+        } else {
+            Gson gson = new Gson();
+            String storedHashMapString = sharedPreferences.getString(tag, "");
+            Type type = new TypeToken<User>() {
+            }.getType();
+            return gson.fromJson(storedHashMapString, type);
+        }
+    }
 }
