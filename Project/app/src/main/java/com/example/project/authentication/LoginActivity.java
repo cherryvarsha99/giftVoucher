@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,14 +19,14 @@ public class LoginActivity extends AppCompatActivity {
     EditText emailEt, passwordEt;
     CheckBox checkBox;
     private Button btnLogin;
-    private Button btnRegister;
+    TextView RegisterTV;
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activty);
         btnLogin = (Button) findViewById(R.id.btnLogin);
-        btnRegister = (Button) findViewById(R.id.btnRegister);
+        RegisterTV = (TextView) findViewById(R.id.txtRegisterLink);
 
     }
 
@@ -35,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(myIntent);
 
     }
-    public void Register(View v)
+    public void Register(View view)
     {
         Intent myIntent = new Intent(getApplicationContext(), RegisterActivity.class);
 
