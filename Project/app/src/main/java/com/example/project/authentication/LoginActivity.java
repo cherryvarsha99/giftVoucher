@@ -14,12 +14,13 @@ import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.project.MainMenuActivity;
 import com.example.project.R;
 import com.example.project.utils.SharedPrefs;
 
 
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity  {
 
     private SharedPrefs sharedPrefs;
     EditText emailEt, passwordEt;
@@ -32,8 +33,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
 
-    @Override
-    public void onClick(View v) {
+    public void login(View v) {
+
+
+            Intent myIntent = new Intent(getApplicationContext(), MainMenuActivity.class);
+
+            startActivity(myIntent);
+
+
 
     }
 }
