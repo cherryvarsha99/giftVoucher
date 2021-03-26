@@ -15,6 +15,7 @@ public class MainMenuActivity extends AppCompatActivity {
     private TextView mTextView;
     private Button btnViewProfile;
 
+    private Button btnManageGiftCards;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
         mTextView = (TextView) findViewById(R.id.text);
         btnViewProfile= (Button) findViewById(R.id.btnViewProfile);
-
+        btnManageGiftCards= (Button) findViewById(R.id.btnManageGiftCards);
 
 
 
@@ -36,4 +37,14 @@ public class MainMenuActivity extends AppCompatActivity {
 
         startActivity(myIntent);
     }
+
+    public void manageGifts(View v)
+    {
+        Intent myIntent = new Intent(getApplicationContext(), MainActivity.class);
+
+        startActivity(myIntent);
+    }
+
+
+
 }

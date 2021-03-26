@@ -68,6 +68,7 @@
                     <Button
                         android:id="@+id/btnManageGiftCards"
                         android:layout_width="match_parent"
+                        android:onClick="manageGifts"
                         android:layout_height="match_parent"
                         android:text="Redeem/Purchase Gift Cards" />
                 </LinearLayout>
