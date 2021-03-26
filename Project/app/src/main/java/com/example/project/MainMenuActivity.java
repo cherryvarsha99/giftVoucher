@@ -1,5 +1,6 @@
 package com.example.project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -16,6 +17,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
         mTextView = (TextView) findViewById(R.id.text);
 
-
+        Intent intent = getIntent();
+        String value = intent.getStringExtra("key");
     }
 }
