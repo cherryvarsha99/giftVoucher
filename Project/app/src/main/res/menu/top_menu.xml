@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/home_link"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_home_black_24dp"
         android:title="Home" />
     <item
         android:id="@+id/logout_link"
