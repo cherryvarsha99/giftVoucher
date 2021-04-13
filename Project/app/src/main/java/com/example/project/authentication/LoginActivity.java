@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.project.MainMenuActivity;
 import com.example.project.R;
 import com.example.project.utils.SharedPrefs;
-
+import com.example.project.utils.ViewUtils;
 
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
@@ -55,5 +55,20 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
 
+    }
+
+
+
+}
+    public boolean applyValidation(String email, String password){
+        if (email==null || email.isEmpty()|| !ViewUtils.isEmailValid(email) ) {
+            ViewUtils.showDialog(this,"Login Error", "Email is invalid",null,true);
+            return false;
+        }
+        if(password==null || password.isEmpty()){
+            ViewUtils.showDialog(this,"Login Error", "PASSWORD_IS_REQUIRED",null,true);
+            return false;
+        }
+        return true;
     }
 }
