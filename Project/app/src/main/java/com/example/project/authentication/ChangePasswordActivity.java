@@ -1,12 +1,15 @@
 package com.example.project.authentication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.project.MainMenuActivity;
 import com.example.project.R;
 import com.example.project.utils.SharedPrefs;
 import com.example.project.utils.ViewUtils;
@@ -66,4 +69,23 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
         getMenuInflater().inflate(R.menu.top_menu, menu);
         return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.logout_link:
+                sharedPrefs.clearAllPreferences();
+                startActivity(new Intent(ChangePasswordActivity.this, LoginActivity.class));
+                finish();
+                return true;
+            case R.id.home_link:
+                startActivity(new Intent(ChangePasswordActivity.this, MainMenuActivity.class));
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 }
