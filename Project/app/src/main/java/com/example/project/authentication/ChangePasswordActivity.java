@@ -2,17 +2,26 @@ package com.example.project.authentication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project.MainMenuActivity;
 import com.example.project.R;
 import com.example.project.utils.SharedPrefs;
 import com.example.project.utils.ViewUtils;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.annotations.NotNull;
 
 public class ChangePasswordActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -36,9 +45,41 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
     }
 
     @Override
-    public void onClick(View v) {
+    public void onClick(View view) {
+        if(isValidInput()){
+            ViewUtils.showProgressDialog(this, false, "updating password ....");
+            String email=ViewUtils.getEditTextValue(emailEt);
+            String password=ViewUtils.getEditTextValue(passwordEt);
+            Log.d("Searching for user"," with ID, "+id);
+            DatabaseReference dbSchedulesRef = FirebaseDatabase.getInstance().getReference("users");
+            Query query = dbSchedulesRef.orderByChild("id").equalTo(id);
+            query.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
+                    ViewUtils.pauseProgressDialog();
+                    if(snapshot.exists() ){
+                        Log.d("found user"," {}, "+snapshot.toString());
+                        snapshot.child(String.valueOf(id)).child("password").getRef().setValue(password);
+                        ViewUtils.showDialog(view.getContext(), "Success", "Password updated successfully", null, true);
+                        Intent intent = new Intent(ChangePasswordActivity.this, ProfileActivity.class);
+                        startActivity(intent);
 
+                    }else {
+                        Log.d("Could not find user"," with ID "+id);
+                        ViewUtils.showDialog(view.getContext(), "Failed", "The email entered is not registered", null, true);
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull @NotNull DatabaseError error) {
+                    ViewUtils.pauseProgressDialog();
+                    ViewUtils.showDialog(view.getContext(), "Error", error.getMessage(), null, true);
+                }
+            });
+
+        }
     }
+
 
     public boolean isValidInput() {
         if (!ViewUtils.isEditTextFilled(new EditText[]{emailEt, passwordEt,
