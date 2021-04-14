@@ -1,6 +1,7 @@
 package com.example.project.authentication;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 
@@ -57,6 +58,12 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
             ViewUtils.showToast(this, "Passwords must match");
             return false;
         }
+        return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.top_menu, menu);
         return true;
     }
 }
