@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project.R;
 import com.example.project.utils.SharedPrefs;
+import com.example.project.utils.ViewUtils;
 
 public class ChangePasswordActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -32,6 +33,30 @@ public class ChangePasswordActivity extends AppCompatActivity implements View.On
 
     @Override
     public void onClick(View v) {
-        
+
+    }
+
+    public boolean isValidInput() {
+        if (!ViewUtils.isEditTextFilled(new EditText[]{emailEt, passwordEt,
+                confirmPasswordEt})) {
+            ViewUtils.showToast(this, "All fields are mandatory");
+            return false;
+        }
+        String email = ViewUtils.getEditTextValue(emailEt);
+        if (!ViewUtils.isEmailValid(email)) {
+            ViewUtils.showToast(this, "Invalid email");
+            return false;
+        }
+        if (!ViewUtils.isPasswordLengthCorrect(passwordEt)) {
+            ViewUtils.showToast(this, "Password must have at least 6 characters");
+            return false;
+        }
+        String password = ViewUtils.getEditTextValue(passwordEt);
+
+        if (!password.equals(ViewUtils.getEditTextValue(confirmPasswordEt))) {
+            ViewUtils.showToast(this, "Passwords must match");
+            return false;
+        }
+        return true;
     }
 }
