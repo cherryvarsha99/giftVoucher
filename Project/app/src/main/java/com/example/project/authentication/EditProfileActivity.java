@@ -8,11 +8,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.project.MainMenuActivity;
 import com.example.project.R;
+import com.example.project.databinding.ActivityEditProfileBinding;
 import com.example.project.utils.SharedPrefs;
 import com.example.project.utils.ViewUtils;
 import com.google.firebase.database.DataSnapshot;
