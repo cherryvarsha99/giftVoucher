@@ -1,7 +1,7 @@
 # Spring2021Team1_giftVoucher
 
 
-# Gift Voucher :gift:
+# Gift Center :gift:
 
 ## Group Members :
 
