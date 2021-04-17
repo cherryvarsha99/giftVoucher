@@ -68,7 +68,13 @@ Gift Voucher
 
 - User will be able to see all the purchased Gift cards and  the status of each card whether it is redeemed or not.
 
+## contributions:
 
+### varsha :
+
+- created  layouts for login,purchase fragment ,passwrd change, main , gift card fragment activities
+- added Drawable images
+- worked on shared preferences, currency conversion util,user uitls,password change, main menu activity,register activity,login activity, firebase creation, real time db creation
 ## Contributors :
 
   <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />                  <img src="SM.png" alt="drawing" width="150" style="border-radius:50%" /> 
