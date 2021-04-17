@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:id="@+id/currencyInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinInputLayout"
+        android:gravity="fill_horizontal"
+        android:orientation="horizontal">
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/currencySpinnerDropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:smsp_errorText="currency is required"
+            app:smsp_errorTextColor="@color/design_default_color_error"
+            app:smsp_floatingLabelColor="#7C4DFF"
+            app:smsp_floatingLabelText="Currency"
+            app:smsp_hint="Choose Currency"
+            app:smsp_hintColor="#808080"
+            app:smsp_isSearchable="true"
+            app:smsp_itemColor="@color/black"
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="#FFFFFF"
+            app:smsp_multilineError="false"
+            app:smsp_selectedItemListColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/usdAmountLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currencyInputLayout"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="80dp">
+
+        <TextView
+            android:id="@+id/usdAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:text="@string/dummy_usd_amount"
+            android:textColor="#808080"
+            android:textSize="16sp"
+            app:drawableStartCompat="@drawable/ic_cash" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/purchaseBtnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnPurchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/purchase" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/usdAmountLayout"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pinInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageInputLayout"
+        app:startIconDrawable="@drawable/ic_lock"
+        android:paddingBottom="12dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pinEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_redeem_pin_label"
+            android:inputType="numberPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/messageInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message"
+        app:startIconDrawable="@drawable/ic_mail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/messageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/amountInputLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:layout_below="@+id/currencyInputLayout"
+        android:visibility="invisible">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/amountInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            app:startIconDrawable="@drawable/ic_pencil">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/amountEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/amount_label"
+                android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/usdSpinnerLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:layout_below="@+id/currencyInputLayout"
+        android:visibility="visible">
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/usdSpinner"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:smsp_errorText="amount is required"
+            app:smsp_errorTextColor="@color/design_default_color_error"
+            app:smsp_floatingLabelColor="#7C4DFF"
+            app:smsp_floatingLabelText="Amount"
+            app:smsp_hint="Amount"
+            app:smsp_hintColor="#808080"
+            app:smsp_isSearchable="true"
+            app:smsp_itemColor="@color/black"
+            app:smsp_itemListColor="@color/black"
+            app:smsp_itemListHintBackgroundColor="#808080"
+            app:smsp_itemListHintColor="#FFFFFF"
+            app:smsp_multilineError="false"
+            app:smsp_selectedItemListColor="@color/black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

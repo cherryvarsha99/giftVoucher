@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvGiftCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/imgGiftCard"
+            android:text="Code 01"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/imgGiftCard" />
+
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvGiftCode"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/imgGiftCard"
+            android:text="Amount: $500"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/imgGiftCard" />
+
+        <TextView
+            android:id="@+id/tvRedeemStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAmount"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/imgGiftCard"
+            android:padding="2dp"
+            android:text="Redeemed: NO"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/imgGiftCard" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imgGiftCard"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/gift_pic" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

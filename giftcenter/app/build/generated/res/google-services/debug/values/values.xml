@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gift-cent-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">611911841270</string>
+    <string name="google_api_key" translatable="false">AIzaSyA2XquNwjyscL-JiItsyNZkIGnqs9t_ACA</string>
+    <string name="google_app_id" translatable="false">1:611911841270:android:bdce2cc3b81b8db48503d7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA2XquNwjyscL-JiItsyNZkIGnqs9t_ACA</string>
+    <string name="google_storage_bucket" translatable="false">gift-cent.appspot.com</string>
+    <string name="project_id" translatable="false">gift-cent</string>
+</resources>
