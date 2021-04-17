@@ -27,7 +27,7 @@ Gift Voucher
 
 ## App Information
 
-- Used Firebase to store the data and, user must register to access  and  can use the below test credentials
+
 
 - minSDKversion- 23
 
@@ -35,7 +35,16 @@ Gift Voucher
 
 - API - 30 or greater 
 
-- Tested with pixel API phones  API > 30 /30  
+- Tested with pixel API phones  API > 30 /30  adnt he below are tested  devices used  to test this app
+
+- Pixel 2 XL API 30 Android 11.0(Target)
+- Pixel 3 XL API 30 Android 11.0(Target)
+- nexus 5x API 30 ANdroid 11.0(target)
+
+## Test Credentials
+one can access the app by registering themselves and will be able to login .Used Firebase to store the data and, user must register to access  and  can use the below test credentials
+
+Username: test@com, password: pass123 ;
 
 ## Sequence of the application :
 
@@ -72,9 +81,23 @@ Gift Voucher
 
 ### varsha :
 
-- created  layouts for login,purchase fragment ,passwrd change, main , gift card ,Gift frag activities
+- created  layouts for login,purchase fragment ,passwrd change, main , gift card ,Gift fragment activities
 - added Drawable images
-- worked on shared preferences, currency conversion util,user uitls,password change, main menu activity,register activity,login activity, firebase creation, real time db creation
+- worked on shared preferences, currency conversion util,user uitls,password change, main menu activity,register activity,login activity,view utils,  firebase creation, real time db creation
+
+ ## Task status: 
+ 
+ - Register and Login activity- completed
+ - Profile activity- completed
+ - edit profile activity - completed
+ - change password activity- completed
+ - purchase gift card activity- completed
+ - redeem gift card actovity - completed
+
+## Further Encouraged implements 
+
+- enabling  credit card/debit card functionality  to purchase gift card
+
 ## Contributors :
 
   <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />                  <img src="SM.png" alt="drawing" width="150" style="border-radius:50%" /> 
