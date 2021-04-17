@@ -72,7 +72,7 @@ Gift Voucher
 
 ### varsha :
 
-- created  layouts for login,purchase fragment ,passwrd change, main , gift card fragment activities
+- created  layouts for login,purchase fragment ,passwrd change, main , gift card ,Gift frag activities
 - added Drawable images
 - worked on shared preferences, currency conversion util,user uitls,password change, main menu activity,register activity,login activity, firebase creation, real time db creation
 ## Contributors :
