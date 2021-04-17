@@ -13,7 +13,7 @@ Sreenidhi Madala
 
 ## Description :
 
-Gift Voucher  app allows users to purchase  Gift vouchers  from available voucher list and also allows to  redeem if user has any gift voucher  . This app allows users to register in the app and then login to buy their intrested gift voucher  .The main advantage of this app is, it helps users to get gift vouchers instantly  
+Gift Voucher  app allows users to purchase  Gift vouchers  from available voucher list and also allows to  redeem if user has any gift voucher  . This app allows users to register in the app and then login to buy their intrested gift voucher  .The main advantage of this app is, it helps users to  gift e-vouchers instantly  
 
 
 
@@ -25,6 +25,17 @@ Gift Voucher  app allows users to purchase  Gift vouchers  from available vouche
 Gift Voucher
 
 
+## App Information
+
+- Used Firebase to store the data and, user must register to access  and  can use the below test credentials
+
+- minSDKversion- 23
+
+- compile SDK version- 30
+
+- API - 30 or greater 
+
+- Tested with pixel API phones  API > 30 /30  
 
 ## Sequence of the application :
 
@@ -39,11 +50,23 @@ Gift Voucher
 
 ## User Login :
 
-- users can login in to the app and can select whether they want to buy a voucher or they want to redeem one
+- users can login in to the app once they register withe corresponding details
 
-- On clicking on purchase  they can see all the available vouchers in the list and can buy  the voucher by providing their details
+- once users login in to the app ,user can view profile,manage profile along with purchasing/redeeming giftcards
 
-- on clicking on Redeem ,they can redeem the voucher with corresponding coupan number 
+
+
+## Redeem/Purchase GiftCards
+ 
+ - once user login in to the app user, user can purchase Gift cards by clicking on the purchase/redeem Gift cards
+ 
+ - To purchase a gift card user need to provide, message and  pin number of user choice ,currency and amount
+
+ - To Redeem Gift Cards, user need to provide the corresponding  pin number 
+
+## View Gift cards
+
+- User will be able to see all the purchased Gift cards and  the status of each card whether it is redeemed or not.
 
 
 ## Contributors :
