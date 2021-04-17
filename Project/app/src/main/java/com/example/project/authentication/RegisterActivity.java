@@ -10,12 +10,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project.MainMenuActivity;
 import com.example.project.R;
+import com.example.project.utils.User;
 import com.example.project.utils.ViewUtils;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Random;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText nameEt, lastnameEt, emailEt, passEt, confirmPassEt;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
@@ -27,14 +33,38 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         passEt =findViewById(R.id.editTextPassword);
         confirmPassEt =findViewById(R.id.editTextPasswordConfirm);
 
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btnRegister:
+                if (isValidInput()) {
+                    ViewUtils.showProgressDialog(this, false, "Registering....");
+                    String name=ViewUtils.getEditTextValue(nameEt);
+                    String lastname=ViewUtils.getEditTextValue(lastnameEt);
+                    String email=ViewUtils.getEditTextValue(emailEt);
+                    String password=ViewUtils.getEditTextValue(passEt);
+                    DatabaseReference dbUserRef = FirebaseDatabase.getInstance().getReference("users");
+                    //todo check if user phone exists
+                    Long id= new Random().nextLong();
+                    User user = new User(String.valueOf(id), name, lastname, email, password);
+                    dbUserRef.child(String.valueOf(id)).setValue(user);
+                    ViewUtils.pauseProgressDialog();
+                    ViewUtils.showToast(this, "Registration successful");
+                    Intent regIntent = new Intent(this, LoginActivity.class);
+                    this.startActivity(regIntent);
+                }
+                break;
+            case R.id.txtViewLoginLink:
+                Intent regIntent = new Intent(this, LoginActivity.class);
+                this.startActivity(regIntent);
+                break;
+        }
 
     }
-    public void login(View v) {
-        Intent myIntent = new Intent(getApplicationContext(), LoginActivity.class);
 
-        startActivity(myIntent);
 
-    }
 
     public boolean isValidInput() {
         if (!ViewUtils.isEditTextFilled(new EditText[]{ nameEt, lastnameEt,emailEt})) {
@@ -60,10 +90,5 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             return false;
         }
         return true;
-    }
-
-    @Override
-    public void onClick(View v) {
-
     }
 }
