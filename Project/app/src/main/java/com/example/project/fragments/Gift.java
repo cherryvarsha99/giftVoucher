@@ -1,7 +1,5 @@
 package com.example.project.fragments;
-/**
- * Created by Maureen Sindiso Mpofu  on 6/3/2021.
- */
+
 public class Gift {
 
     private String id;
