@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "611911841270",
+    "firebase_url": "https://gift-cent-default-rtdb.firebaseio.com",
+    "project_id": "gift-cent",
+    "storage_bucket": "gift-cent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611911841270:android:c345fdf99e1d31408503d7",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XquNwjyscL-JiItsyNZkIGnqs9t_ACA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611911841270:android:bdce2cc3b81b8db48503d7",
+        "android_client_info": {
+          "package_name": "com.project.androidtuts.callbacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XquNwjyscL-JiItsyNZkIGnqs9t_ACA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611911841270:android:7b58473ec1109a2f8503d7",
+        "android_client_info": {
+          "package_name": "com.zaratech.androidtuts.callbacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XquNwjyscL-JiItsyNZkIGnqs9t_ACA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611911841270-7ljseeatae84etf225lil3iuka3d7bl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
