@@ -3,9 +3,7 @@ package com.example.project.model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Maureen Sindiso Mpofu  on 17/10/2020.
- */
+
 public class GiftCardModel {
 
     private static GiftCardModel giftCardModel;

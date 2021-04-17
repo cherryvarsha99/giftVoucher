@@ -2,7 +2,6 @@ package com.example.project.utils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -35,7 +34,6 @@ import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 public class ViewUtils {
 
@@ -170,7 +168,7 @@ public class ViewUtils {
     public static Dialog createDialog(Context context, int titleId, int messageId,
                                       DialogInterface.OnClickListener positiveButtonListener,
                                       DialogInterface.OnClickListener negativeButtonListener) {
-        Builder builder = new Builder(context);
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle(titleId);
         builder.setMessage(messageId);
         builder.setPositiveButton("ok", positiveButtonListener);
@@ -184,7 +182,7 @@ public class ViewUtils {
                                       DialogInterface.OnClickListener positiveClickListener,
                                       DialogInterface.OnClickListener negativeClickListener) {
 
-        Builder builder = new Builder(context);
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle(titleId);
         builder.setMessage(messageId);
         builder.setView(view);
@@ -206,7 +204,7 @@ public class ViewUtils {
                 }
             };
         if (dialog == null) {
-            Builder builder = new Builder(context);
+            AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setTitle(title);
             builder.setMessage(msg);
             builder.setPositiveButton("OK", OK);
@@ -256,7 +254,7 @@ public class ViewUtils {
             };
 
         if (dialog == null) {
-            Builder builder = new Builder(context);
+            AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setTitle(title);
             builder.setMessage(msg);
             builder.setPositiveButton("OK", OK);
@@ -435,6 +433,9 @@ public class ViewUtils {
         }
         return true;
     }
+
+
+
     public static boolean isNetworkConnected(Context mContext) {
         ConnectivityManager cm = (ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo ni = cm.getActiveNetworkInfo();
@@ -443,7 +444,7 @@ public class ViewUtils {
     }
 
     public static void InternetAlertDialog(Context mContext) {
-        Builder alertDialog = new Builder(mContext);
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
 
         //Setting Dialog Title
         alertDialog.setTitle("Error Connecting");
@@ -462,6 +463,15 @@ public class ViewUtils {
                 });
         alertDialog.show();
     }
+
+
+
+
+
+
+
+
+
     public static String convertTimestampToTime(long timestamp) {
         Timestamp tStamp = new Timestamp(timestamp);
         SimpleDateFormat simpleDateFormat;
@@ -480,4 +490,13 @@ public class ViewUtils {
         simpleDateFormat = new SimpleDateFormat("dd MMM, yyyy hh:mm a");
         return simpleDateFormat.format(tStamp);
     }
+
+
+
+
+
+
+
+
+
 }

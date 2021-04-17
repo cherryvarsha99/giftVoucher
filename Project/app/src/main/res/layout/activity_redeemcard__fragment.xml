@@ -78,10 +78,11 @@
                 android:id="@+id/codeEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/enter_redeem_code_label"
-                android:inputType="number"/>
+                android:hint="@string/enter_redeem_code_label"/>
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
+
+
 
 </RelativeLayout>

@@ -1,8 +1,6 @@
 package com.example.project.utils;
 
-/**
- * Created by Maureen Sindiso Mpofu  on 6/3/2021.
- */
+
 public class User {
 
     private String id;

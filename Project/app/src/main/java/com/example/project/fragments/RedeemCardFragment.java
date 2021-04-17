@@ -95,7 +95,7 @@ public class RedeemCardFragment extends Fragment implements View.OnClickListener
                     ViewUtils.showProgressDialog(view.getContext(),false,"Redeeming....");
                     String pin = editTextPin.getText().toString();
                     String code = editTextCode.getText().toString();
-                    String userId = sharedPrefs.getValue("id");
+                     String userId = sharedPrefs.getValue("id");
                     //redeemCallback.update(code, pin);
                     DatabaseReference db= FirebaseDatabase.getInstance().getReference("gifts");
                     Query checkUser = db.orderByChild("userId");

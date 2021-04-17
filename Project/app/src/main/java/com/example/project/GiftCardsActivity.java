@@ -40,7 +40,7 @@ public class GiftCardsActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gift_card__item);
+        setContentView(R.layout.activity_gift_cards);
         sharedPrefs =SharedPrefs.getInstance(GiftCardsActivity.this);
         giftCardsRecyclerView = (RecyclerView) findViewById(R.id.giftCardsRecyclerView);
         giftsLinearLayoutManager = new LinearLayoutManager(GiftCardsActivity.this, LinearLayoutManager.VERTICAL, false);

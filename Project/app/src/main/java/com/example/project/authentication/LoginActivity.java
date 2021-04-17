@@ -34,8 +34,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     EditText emailEt, passwordEt;
     CheckBox checkBox;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -127,8 +125,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
 
     }
-
-
 
 
 
