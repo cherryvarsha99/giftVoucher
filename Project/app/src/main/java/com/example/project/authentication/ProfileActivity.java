@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project.R;
+import com.example.project.databinding.ActivityProfileBinding;
 import com.example.project.utils.SharedPrefs;
 
 public class ProfileActivity extends AppCompatActivity implements View.OnClickListener {
