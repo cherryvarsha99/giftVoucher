@@ -2,9 +2,7 @@ package com.project.androidtuts.callbacks.utils;
 
 import java.text.DecimalFormat;
 
-/**
- * Created by Maureen Sindiso Mpofu  on 18/10/2020.
- */
+
 public class CurrencyConversion {
 
     public static DecimalFormat decimalFormatTo2 = new DecimalFormat("#.##");
