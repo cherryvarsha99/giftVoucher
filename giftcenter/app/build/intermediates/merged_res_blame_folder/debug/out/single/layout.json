@@ -1,50 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_profile.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_gift_cards.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_gift_cards.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_list_item.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\simple_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_purchase_card.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\fragment_purchase_card.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_menu.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_redeem_card.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\fragment_redeem_card.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_purchase_card.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\fragment_purchase_card.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_redeem_card.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\fragment_redeem_card.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_list_item.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\simple_list_item.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\gift_card_item.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\gift_card_item.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\gift_card_item.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\gift_card_item.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_menu.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_gift_cards.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_gift_cards.xml"
     },
     {
-        "merged": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_password.xml",
-        "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\layout\\activity_register.xml"
     }
 ]

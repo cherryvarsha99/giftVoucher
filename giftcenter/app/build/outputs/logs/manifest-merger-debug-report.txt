@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\s540114\.gradle\caches\transforms-3\94a3a2b342170ed1f3438212764c0835\transformed\jetified-viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\s540114\.gradle\caches\transforms-3\45edfc7639d416a8fb3a69c423f97e09\transformed\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\s540114\.gradle\caches\transforms-3\03021dc996eeaf552fd4b524354f86b4\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -77,25 +77,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\s540114\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\s540114\.gradle\caches\transforms-3\1b0cbf3c47b6658df26f494d1c24d628\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\s540114\.gradle\caches\transforms-3\c00aa52dd911fdfb0f3b1150f0dac3b4\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\s540114\.gradle\caches\transforms-3\a2683674c9ca31f8de021e35e0b6ba20\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:3:5-48
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\s540114\.gradle\caches\transforms-3\03021dc996eeaf552fd4b524354f86b4\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\s540114\.gradle\caches\transforms-3\03021dc996eeaf552fd4b524354f86b4\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\s540114\.gradle\caches\transforms-3\0d696810d03eb6d4d0c62b6b36b2e64f\transformed\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
@@ -147,63 +147,63 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\s5
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\s540114\.gradle\caches\transforms-3\50c8e2d1e645f6c89eca0219ed5cb556\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:7:9-38
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:7:9-38
 	android:allowBackup
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:11:9-48
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:11:9-48
 activity#com.project.androidtuts.callbacks.authentication.LoginActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:13:13-90
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:13:13-90
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:14:13-17:29
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.project.androidtuts.callbacks.GiftCardsActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:19:9-87
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:19:9-87
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:19:19-85
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:19:19-85
 activity#com.project.androidtuts.callbacks.MainActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:20:9-83
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:20:9-83
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:20:19-80
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:20:19-80
 activity#com.project.androidtuts.callbacks.MainMenuActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:21:9-87
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:21:9-87
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:21:19-84
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:21:19-84
 activity#com.project.androidtuts.callbacks.authentication.RegisterActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:22:9-102
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:22:9-102
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:22:19-99
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:22:19-99
 activity#com.project.androidtuts.callbacks.authentication.ProfileActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:23:9-101
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:23:9-101
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:23:19-98
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:23:19-98
 activity#com.project.androidtuts.callbacks.authentication.EditProfileActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:24:9-105
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:24:9-105
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:24:19-102
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:24:19-102
 activity#com.project.androidtuts.callbacks.authentication.ChangePasswordActivity
-ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:25:9-108
+ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:25:9-108
 	android:name
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml:25:19-105
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml:25:19-105
 uses-sdk
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\s540114\.gradle\caches\transforms-3\94a3a2b342170ed1f3438212764c0835\transformed\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\s540114\.gradle\caches\transforms-3\94a3a2b342170ed1f3438212764c0835\transformed\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\s540114\.gradle\caches\transforms-3\45edfc7639d416a8fb3a69c423f97e09\transformed\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
@@ -350,16 +350,16 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\s540114\.gradle\cac
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\s540114\.gradle\caches\transforms-3\c00aa52dd911fdfb0f3b1150f0dac3b4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\s540114\.gradle\caches\transforms-3\a2683674c9ca31f8de021e35e0b6ba20\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\s540114\.gradle\caches\transforms-3\a2683674c9ca31f8de021e35e0b6ba20\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\s540114\Downloads\giftcenter\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\s540114\Documents\giftVoucher\giftcenter\app\src\main\AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\s540114\.gradle\caches\transforms-3\668f9f0d984f0ca41e1cb65da95f9968\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities

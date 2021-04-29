@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\s540114\\.gradle\\caches\\transforms-3\\33c36ccc4b0689985d13dbf948699b3a\\transformed\\jetified-play-services-base-17.1.0\\res\\values-hr\\values.xml",

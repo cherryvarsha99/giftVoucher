@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\s540114\\Downloads\\giftcenter\\giftcenter\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,824",
-                        "endLines": "14,15",
-                        "endColumns": "12,65",
-                        "endOffsets": "819,885"
-                    },
-                    "to": {
-                        "startLines": "9,38",
-                        "startColumns": "4,4",
-                        "startOffsets": "732,3316",
-                        "endLines": "21,38",
-                        "endColumns": "12,65",
-                        "endOffsets": "1449,3377"
-                    }
-                },
                 {
                     "source": "C:\\Users\\s540114\\.gradle\\caches\\transforms-3\\61b41796038d499d878026580da9f878\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -54,6 +35,25 @@
                         "startOffsets": "1454,1542,1666,1768,1870,1986,2088,2202,2330,2446,2568,2704,2824,2958,3078,3190,3471,3609,3733,3863,3985,4123,4239",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
                         "endOffsets": "1537,1661,1763,1865,1981,2083,2197,2325,2441,2563,2699,2819,2953,3073,3185,3311,3604,3728,3858,3980,4118,4234,4354"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\s540114\\Documents\\giftVoucher\\giftcenter\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,824",
+                        "endLines": "14,15",
+                        "endColumns": "12,65",
+                        "endOffsets": "819,885"
+                    },
+                    "to": {
+                        "startLines": "9,38",
+                        "startColumns": "4,4",
+                        "startOffsets": "732,3316",
+                        "endLines": "21,38",
+                        "endColumns": "12,65",
+                        "endOffsets": "1449,3377"
                     }
                 }
             ]
