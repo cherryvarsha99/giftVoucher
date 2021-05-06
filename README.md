@@ -83,7 +83,12 @@ Username: test@com, password: pass123 ;
 
 - created  layouts for login,purchase fragment ,passwrd change, main , gift card ,Gift fragment activities
 - added Drawable images
-- worked on shared preferences, currency conversion util,user uitls,password change, main activity,Gift Adapter,login activity,view utils, purchase Fragment activty, GiftCards activity , firebase creation, real time db creation
+- worked on shared preferences, currency conversion util,user uitls,password change, main activity,Gift Adapter,login activity,view utils, purchase Fragment activty, GiftCards activity , firebase creation, real time db creation.
+
+### Sreenidhi :
+-created  layouts for Register,Redeem Fragment ,Edit Profile, main , Gift Fragment, Profile Activity,Redeem Inteface ,Gift Fragment Activities
+- added Drawable images
+- We worked on shared preferences, currency conversion util,user uitls,Edit Profile, main activity,Gift Adapter,register activity,view utils, redeem Fragment activty, GiftCards activity , firebase creation, real time db creation.
 
  ## Task status: 
  
